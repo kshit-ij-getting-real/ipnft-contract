@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+cache/
+artifacts/
+typechain/
+.env
+.env.*.local
+.vscode/
+.idea/
+.DS_Store

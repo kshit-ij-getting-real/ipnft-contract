@@ -1,0 +1,24 @@
+{
+  "name": "ipnft-contract",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "build": "npx hardhat compile",
+    "node": "npx hardhat node",
+    "deploy:localhost": "npx hardhat run --network localhost scripts/deploy.ts",
+    "deploy:base": "npx hardhat run --network baseSepolia scripts/deploy.ts",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "hardhat": "^2.17.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "typescript": "^5.1.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0"
+  }
+}
